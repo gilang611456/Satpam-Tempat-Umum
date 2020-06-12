@@ -65,6 +65,6 @@ module.exports = {
 	 * 
 	 * https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token
 	 */
-	botToken: "NjY2ODg5NDQ4MTU5NTc2MDc1.XtlPpA.9t6s1MRnkTtk7tS717OcdSqZwxQ"
+	botToken: process.env.TOKEN
 };
 const timezone = require('moment-timezone');
